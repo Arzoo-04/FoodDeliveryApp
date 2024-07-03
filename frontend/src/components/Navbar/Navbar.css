@@ -5,7 +5,10 @@
     align-items: center;
 }
 .Navbar .logo{
-    width: 150px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: tomato;
+    font-size: max(3.5vw, 25px);
 }
 .navbar-menu{
     display: flex;

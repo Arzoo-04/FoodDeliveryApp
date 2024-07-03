@@ -5,9 +5,12 @@
     padding: 8px 4%;
 }
 .navbar .logo{
-    width: max(10%,80px);
+    margin-top: 20px;
+    font-weight: 500;
+    color: tomato;
+    font-size: max(3.5vw, 25px);
 }
 
-.navbar .profile{
+/* .navbar .profile{
     width: 40px;
-}
+} */

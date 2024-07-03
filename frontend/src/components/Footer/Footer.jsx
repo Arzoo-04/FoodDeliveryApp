@@ -6,8 +6,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit amet, consectetur assumenda ipsam, beatae reiciendis ab quo suscipit! Saepe, quos sunt laudantium obcaecati ut non voluptas esse architecto eius assumenda molestiae labore praesentium id doloremque tenetur consectetur, doloribus pariatur ab quasi.</p>
+                {/* <img src={assets.logo} alt="" /> */}
+                {/* <p>Lorem ipsum dolor sit amet, consectetur assumenda ipsam, beatae reiciendis ab quo suscipit! Saepe, quos sunt laudantium obcaecati ut non voluptas esse architecto eius assumenda molestiae labore praesentium id doloremque tenetur consectetur, doloribus pariatur ab quasi.</p> */}
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -26,13 +26,13 @@ const Footer = () => {
             <div className="footer-content-right">
                 <h2>GET IN TOUCH</h2>
                 <ul>
-                    <li>+91 9999222111</li>
-                    <li>contact@tomato.com</li>
+                    <li>+91 999922XXXX</li>
+                    <li>contact@mealmetro.com</li>
                 </ul>
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 &copy; Tomato.com - All Right Reserved.</p>
+        <p className="footer-copyright">Copyright 2024 &copy; mealmetro.com - All Right Reserved.</p>
     </div>
   )
 }
